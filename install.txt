@@ -1,0 +1,4 @@
+curl https://bootstrap.pypa.io/get-pip.py | python
+pip install --upgrade setuptools
+pip install pymongo
+pip install bottle

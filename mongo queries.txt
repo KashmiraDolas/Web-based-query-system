@@ -1,0 +1,14 @@
+mongo
+
+use webservice
+
+db.createUser({
+... user:"CASH",
+... pwd:"1234",
+... roles:["readWrite", "dbAdmin"]
+... });
+
+db.api.count()
+db.mashup.count()
+
+
